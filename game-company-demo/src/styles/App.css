@@ -1,0 +1,61 @@
+/* Header */
+header {
+  background-color: #d62828; /* đỏ Garena */
+  padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Nền mặc định cho toàn bộ page */
+.page {
+  background: linear-gradient(to bottom, #1a1a1a, #121212);
+  min-height: 80vh;
+  padding: 40px;
+  color: #fff;
+}
+
+
+/* Logo */
+header h1 {
+  margin: 0;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* Menu ngang */
+nav {
+  display: flex;
+  gap: 30px; /* giãn khoảng cách giữa các menu */
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  position: relative;
+  padding: 5px 0;
+  transition: color 0.3s;
+}
+
+/* Hiệu ứng hover */
+nav a:hover {
+  color: #ffe066;
+}
+
+/* Thanh underline khi hover */
+nav a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 0;
+  height: 2px;
+  background: #ffe066;
+  transition: width 0.3s;
+}
+
+nav a:hover::after {
+  width: 100%;
+}

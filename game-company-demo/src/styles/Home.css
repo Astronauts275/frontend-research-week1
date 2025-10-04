@@ -1,0 +1,22 @@
+.home {
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(to bottom, #1a1a1a, #121212); 
+  min-height: 80vh; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.home h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: #ffe066; 
+}
+
+.home p {
+  font-size: 18px;
+  color: #ccc;
+  max-width: 600px;
+}

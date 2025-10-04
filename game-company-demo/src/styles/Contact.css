@@ -1,0 +1,44 @@
+.contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 400px;
+  margin: 0 auto; /* canh giữa */
+}
+
+.contact input,
+.contact textarea {
+  width: 100%;
+  padding: 12px 15px;
+  border: none;
+  border-radius: 6px;
+  background: #2a2a2a;
+  color: #fff;
+  font-size: 14px;
+  outline: none;
+}
+
+.contact input::placeholder,
+.contact textarea::placeholder {
+  color: #aaa;
+}
+
+.contact textarea {
+  resize: none; /* không cho kéo */
+}
+
+.contact button {
+  background: linear-gradient(90deg, #ff3c3c, #ff7300);
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact button:hover {
+  opacity: 0.85;
+}
